@@ -1,0 +1,74 @@
+.grid {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid>article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    padding: 0 20px 20px;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+.grid>article:nth-child(1) {
+    grid-row: span 2;
+}
+
+.grid>article:nth-child(3) {
+    grid-row: span 2;
+}
+
+/*-----------------BAR1----------------*/
+
+.chart1 div {
+    font: 10px sans-serif;
+    background-color: #1f77b4;
+    text-align: right;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+    
+}
+
+/*--------------donut------------------- */
+
+.widget {
+    margin: 0 auto;
+    width: 350px;
+    margin-top: 30px;
+}
+
+.chart-container {
+    padding: 25px;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( 0px 3px 3px rgba(0, 0, 0, .5));
+    filter: drop-shadow( 0px 3px 3px rgba(0, 0, 0, .5));
+}
+
+/*--------------BAR2------------------- */
+
+.chart2 div {
+ 
+    align: center;
+    font: 10px sans-serif;
+    background-color: #1f77b4;
+    text-align: right;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+}
+
+/*----------------table---------------------*/
+
+#cont2 {
+    text-align: justify;
+    margin-top: 50px;
+}
